@@ -1,0 +1,196 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+/* --------------------------------------------header--------------------------------------------------- */
+#header{
+    background-image: url(images/img4.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+.navbar-nav li a{
+  float: right;
+  color: #e2dddf!important;
+  font-weight: bold;
+}
+.navbar-brand img{
+  width: 150px;
+  margin-left: 30px;
+}
+ nav .navbar-toggler{
+  border: none!important;
+  outline: none !important;
+}
+nav .fa-bars{
+  color: #e2dddf;
+  font-size: 22px;
+}
+/* --------------------------------------------WELCOME------------------------------------------------------------- */
+.welcome{
+  padding: 50px 100px;
+  margin-top: -140px;
+  background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+  box-shadow: 0 0 90px 7px rgba(0,0,0,0.6);
+}
+.welcome h1{
+  color: #b0acb0;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.welcome p{
+  color: #e2dddf;
+  text-transform: capitalize;
+  font-size: 17px;
+}
+/* --------------------------------------------ABOUT--------------------------------------------------------------------- */
+#about{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#about .col-md-6{
+  padding: 20px 10px;
+
+}
+#about h3{
+  margin: 20px auto
+}
+#about p{
+  font-size: 17px;
+}
+.fade-in{
+  opacity: 0;
+  transition: opacity 250,s ease-in;
+}
+.fade-in.appear {
+  opacity: 1;
+}
+.form-left{
+  transform: translateX(-50%);
+}
+.form-right{
+  transform: translateX(50%);
+}
+
+.form-left,
+.form-right {
+  transition: transform 400ms ease-in;
+}
+.form-left.appear,
+.form-right.appear {
+  transition: translateX(0);
+}
+
+/* ------------------------------------SERVICES------------------------------ */
+
+#services{
+  background-color: #E8E8E8;
+  padding: 50px 0;
+}
+#services .col-md-4{
+  padding: 20px;
+}
+#services .col-md-4 h4{
+  padding-top: 18px;
+  padding-bottom: 4px;
+  padding-left: 0px;
+  font-size: 18px;
+}
+#services .col-md-4 img{
+  width: 50px;
+}
+#services .col-md-4 p{
+  padding: 1px;
+  text-align: justify;
+}
+
+/* ------------------------------------FEATURES----------------------------- */
+#features{
+  padding: 30px 0;
+  background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%),url(images/img2.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #b0acb0;
+}
+#features .col-md-6{
+  padding: 20px;
+}
+.feature-box{
+  height: 120px;
+}
+.feature-box .feature-left{
+  height: 120px;
+  width: 20%;
+  float:left;
+}
+.feature-box .feature-left .fa-solid{
+  padding-top: 13px;
+  font-size: 20px;
+}
+
+.feature-box .feature-right {
+  height: 120px;
+  width: 80%;
+}
+.feature-box .feature-right h4{
+  padding-top: 5px;
+}
+.feature-box .feature-right p{
+  font-size: 12px;
+}
+
+/* ------------------------SUBSCRIBE--------------------- */
+
+.subscribe{
+  padding: 50px 20px;
+  background-image: linear-gradient( 101.9deg, rgba(18,20,23,1) -4.2%, rgba(64,73,79,1) 131.3% );
+  position: relative;
+  box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+  margin-bottom: -160px;
+  margin-top: 80px;
+}
+.subscribe h3{
+  color: #b0acb0;
+}
+.subscribe p{
+  color: #e2dddf;
+  text-transform: capitalize;
+  font-size: 17px;
+}
+
+
+/* ----------------------FOOOTER----------------------- */
+
+#footer{
+  margin-top: 80px;
+  padding: 100px;
+  background-color: #efefef;
+  color: #000;
+}
+.footer-logo{
+  width: 150px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+#footer h1{
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+#footer p{
+  font-size: 14px;
+}
+#footer .fa {
+  padding-right: 20px;
+  font-size: 16px;
+}
+#footer hr{
+  margin-top: 28px;
+}
+#footer .fa-brands {
+  padding-right: 20px;
+  font-size: 16px;
+}
+#footer .madeby{
+  text-align: center;
+  font-size: 15px;
+}
